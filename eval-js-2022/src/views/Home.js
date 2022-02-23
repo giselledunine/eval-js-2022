@@ -130,7 +130,7 @@ export default function Home() {
         ))}
       </TableBody>
 
-      <TextField id="outlined-basic" label="Nouvel élément" variant="outlined" onChange={handleAdd}/>
+      <TextField id="outlined-basic" label="Nouvel élément" variant="outlined" multiline minRows={3} onChange={handleAdd}/>
       <Button variant={"contained"} onClick={handleAddList}>Ajouter un élément</Button>
     </Fragment>
   );
